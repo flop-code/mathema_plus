@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "e-Ukraine Regular";
+    src: url("e-Ukraine-Regular.woff")format("woff");
+}
+
+:root {
+    --sl-font-sans: "e-Ukraine Regular";
+    --sl-font-mono: "e-Ukraine Regular";
+    --sl-font-serif: "e-Ukraine Regular";
+}
+
+.underlined {
+    text-decoration: underline;
+    text-decoration-color: var(--sl-color-neutral-400);
+}
